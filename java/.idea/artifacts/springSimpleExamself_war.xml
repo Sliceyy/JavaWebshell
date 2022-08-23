@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springSimpleExamself:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/springSimpleExamself_war</output-path>
+    <root id="archive" name="springSimpleExamself_war.war">
+      <element id="artifact" artifact-name="springSimpleExamself:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>
