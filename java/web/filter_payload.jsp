@@ -74,7 +74,8 @@
         filterMap.setFilterName(name);
         filterMap.setDispatcher(DispatcherType.REQUEST.name());
 
-        standardContext.addFilterMapBefore(filterMap);
+//        standardContext.addFilterMapBefore(filterMap);
+        standardContext.addFilterMap(filterMap);
 
         Constructor constructor = ApplicationFilterConfig.class.getDeclaredConstructor(Context.class,FilterDef.class);
         constructor.setAccessible(true);
